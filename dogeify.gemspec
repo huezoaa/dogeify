@@ -6,7 +6,7 @@ require 'dogeify/version'
 Gem::Specification.new do |spec|
   spec.name          = "dogeify"
   spec.version       = Dogeify::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Angel Huezo"]
   spec.email         = ["angelohuezo@gmail.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
@@ -29,4 +29,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency 'rspec'
 end

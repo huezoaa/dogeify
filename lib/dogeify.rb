@@ -1,5 +1,8 @@
 require "dogeify/version"
 
 module Dogeify
-  # Your code goes here...
+  def self.process(str)
+    # TODO: process 'str'
+    str
+  end
 end
